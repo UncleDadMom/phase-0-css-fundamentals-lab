@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+  
+header,
+section#featured-property {
+  text-align: center;
+  margin: auto;
+}
+  h1 {
+    color:brown
+  }
+  nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: burlywood;
+  }
+  figcaption {
+    font-size: small;
+  }
+   section#featured-property p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    width: 800px;
+  }
+  section#details div {
+    width: 25%;
+    background: brown;
+    text-align: center;
+    float: left;
+  }
+
